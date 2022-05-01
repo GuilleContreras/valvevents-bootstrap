@@ -5,12 +5,12 @@
   flex-direction: column;
 }
 .aboutUs_main div h1 {
-  color: white;
+  color: #fff;
   text-shadow: 5px 5px 15px #78913e;
   padding: 15px;
 }
 .aboutUs_main p {
-  color: white;
+  color: #fff;
   padding: 10px;
   font-size: 17px;
 }
@@ -44,7 +44,7 @@
   background-color: rgb(41, 43, 42);
   flex-direction: row;
   justify-content: space-between;
-  color: white;
+  color: #fff;
 }
 .aboutFooter h2 {
   font-size: 13px;
