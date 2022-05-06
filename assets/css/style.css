@@ -58,6 +58,8 @@
 /*INDEX PAGE*/
 .container-fluid {
   background-color: #12100D;
+  margin: 0px;
+  padding: 0px;
 }
 
 ul li a {
@@ -82,6 +84,7 @@ ul li a {
           text-decoration-line: underline;
   -webkit-text-decoration-style: double;
           text-decoration-style: double;
+  margin: 0px;
 }
 
 h1 {
@@ -177,13 +180,19 @@ h1 {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #12100D;
+  margin: 0px;
 }
 
-.img1 {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.img1 img {
+  border-radius: 15px;
+}
+
+.img2 img {
+  border-radius: 15px;
+}
+
+.img3 img {
+  border-radius: 15px;
 }
 
 .img1 img:hover {
@@ -201,50 +210,17 @@ h1 {
   box-shadow: 0px 0px 5px white;
 }
 
-.img1 img {
-  margin-top: 30px;
-  width: 700px;
-  border-radius: 15px;
-}
-
-.img2 {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 35px;
-  flex-wrap: wrap;
-}
-
-.img2 img {
-  margin-top: 10px;
-  width: 700px;
-  border-radius: 15px;
-}
-
-.img3 {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 35px;
-  flex-wrap: wrap;
-}
-
-.img3 img {
-  margin-bottom: 30px;
-  margin-top: 10px;
-  width: 700px;
-  border-radius: 15px;
-}
-
 .indexMain h2 {
   font-size: 35px;
   font-style: italic;
 }
 
 .proximosEventos-title {
+  background-color: #4b4b4b;
+}
+.proximosEventos-title h2 {
   color: white;
   padding: 15px;
-  background-color: #4b4b4b;
 }
 
 main section {

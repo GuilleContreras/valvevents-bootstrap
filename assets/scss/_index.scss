@@ -2,6 +2,8 @@
 
 .container-fluid{
     background-color: #12100D;
+    margin: 0px;
+    padding: 0px;
 }
 
 ul li a{
@@ -25,6 +27,7 @@ ul li a{
     text-shadow: 4px 4px 30px #dde02a;
     text-decoration-line: underline;
     text-decoration-style:double;
+    margin: 0px;
 }
 h1{
     font-size: 70px;
@@ -66,9 +69,19 @@ h1{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #12100D
+    background-color: #12100D;
+    margin: 0px;
 }
 
+.img1 img{
+    border-radius: 15px;
+}
+.img2 img{
+    border-radius: 15px;
+}
+.img3 img{
+    border-radius: 15px;
+}
 .img1 img:hover{
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
@@ -91,9 +104,11 @@ h1{
     font-style: italic;
 }
 .proximosEventos-title{
-    color: white;
-    padding: 15px;
     background-color: #4b4b4b;
+    h2{
+        color: white;
+        padding: 15px;
+    }
 }   
 
 main section{
