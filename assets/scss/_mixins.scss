@@ -1,0 +1,5 @@
+@mixin hoverTarjetas ($wbkit,$transform,$boxshadow){
+    -webkit-transform: $wbkit;
+	transform: $transform;
+    box-shadow: $boxshadow;
+}

@@ -21,7 +21,7 @@
 }
 
 .aboutVideo{
-    border-radius: 50px;
+    border-radius: map-get($videos , radioBorde );
 }
 
 .about-textContainer{

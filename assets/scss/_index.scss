@@ -1,5 +1,7 @@
 /*INDEX PAGE*/
 
+@import "mixins";
+
 .container-fluid{
     background-color: #12100D;
     margin: 0px;
@@ -49,17 +51,6 @@ h1{
     75% {color: yellow;}
     100% {color:white}
 }
-.navLogo img{
-    animation-name: logo;
-    animation-duration: 5s;
-    animation-iteration-count: 10;
-}
-
-@keyframes logo {
-    0% {opacity: 0%;}
-    50% {opacity: 50%;}
-    100% {opacity: 100%;}
-}
 
 .indexMain{
     width: 100%;
@@ -77,25 +68,19 @@ h1{
     border-radius: 15px;
 }
 .img2 img{
-    border-radius: 15px;
+    @extend .img1;
 }
 .img3 img{
-    border-radius: 15px;
+    @extend .img1;
 }
 .img1 img:hover{
-    -webkit-transform: scale(1.1);
-	transform: scale(1.1);
-    box-shadow: 0px 0px 5px white;
+    @include hoverTarjetas(scale(1.1),scale(1.1), 0px 0px 5px white)
 }
 .img2 img:hover{
-    -webkit-transform: scale(1.1);
-	transform: scale(1.1);
-    box-shadow: 0px 0px 5px white;
+    @include hoverTarjetas(scale(1.1),scale(1.1), 0px 0px 5px white)
 }
 .img3 img:hover{
-    -webkit-transform: scale(1.1);
-	transform: scale(1.1);
-    box-shadow: 0px 0px 5px white;
+    @include hoverTarjetas(scale(1.1),scale(1.1), 0px 0px 5px white)
 }
 
 
@@ -110,27 +95,3 @@ h1{
         padding: 15px;
     }
 }   
-
-main section{
-    margin-top: 50px;
-}
-
-.mainFooter{
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-    height: 40px;
-    background-color: rgb(41, 43, 42);
-    flex-direction: column;
-    justify-content:space-between;
-    color: white;
-    margin-bottom: 0px;
-    align-content: center;
-    
-}
-
-.mainFooter h2{
-    font-size: 15px;
-    margin-top: 10px;
-}
