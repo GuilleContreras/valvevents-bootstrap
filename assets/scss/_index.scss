@@ -1,6 +1,7 @@
 /*INDEX PAGE*/
 
 @import "mixins";
+@import "indexCard";
 
 .container-fluid{
     background-color: #12100D;
@@ -73,15 +74,10 @@ h1{
 .img3 img{
     @extend .img1;
 }
-.img1 img:hover{
+.blog-card:hover{
     @include hoverTarjetas(scale(1.1),scale(1.1), 0px 0px 5px white)
 }
-.img2 img:hover{
-    @include hoverTarjetas(scale(1.1),scale(1.1), 0px 0px 5px white)
-}
-.img3 img:hover{
-    @include hoverTarjetas(scale(1.1),scale(1.1), 0px 0px 5px white)
-}
+
 
 
 .indexMain h2{
