@@ -34,3 +34,35 @@
         border-radius: 10px;
     }
 }
+
+.shop1{
+    display: none;
+}
+.shop2{
+    display: none;
+}
+.shop3{
+    display: none;
+}
+
+@media (max-width:720px){
+    .shop1{
+        display: block;
+    }
+    .shop2{
+        display: block;
+    }
+    .shop3{
+        display: block;
+    }
+    .shop4{
+        display: none;
+    }
+    .shop5{
+        display: none;
+    }
+    .shop6{
+        display: none;
+    }
+
+}
