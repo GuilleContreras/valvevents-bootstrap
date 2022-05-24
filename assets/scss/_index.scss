@@ -76,7 +76,7 @@ h1{
     @extend .img1;
 }
 .blog-card:hover{
-    @include hoverTarjetas(scale(1.1),scale(1.1), 0px 0px 5px white)
+    @include hoverTarjetas(scale(1.05),scale(1.05), 0px 0px 5px white)
 }
 
 

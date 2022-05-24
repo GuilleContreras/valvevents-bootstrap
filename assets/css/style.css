@@ -319,10 +319,12 @@ h1 {
 }
 
 .blog-card:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
   -webkit-box-shadow: 0px 0px 5px white;
           box-shadow: 0px 0px 5px white;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .indexMain h2 {
