@@ -34,12 +34,10 @@
     opacity: .8;
 }
 .formSection{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
     height: 900px;
     background-image: url(../img/contact-header1.jpg);
     background-size: cover;
+    margin: 0px;
     
 }
 .contactMain form label{

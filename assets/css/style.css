@@ -513,19 +513,10 @@ h1 {
 }
 
 .formSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
   height: 900px;
   background-image: url(../img/contact-header1.jpg);
   background-size: cover;
+  margin: 0px;
 }
 
 .contactMain form label {
